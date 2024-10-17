@@ -3,7 +3,7 @@
     {
       "name": "DS_PROMETHEUS",
       "label": "Prometheus",
-      "description": "",
+      "description": "Story metrics provide essential information for monitoring and evaluating the performance and status of the Story network. These metrics cover a wide range of aspects, from block height to total bandwidth usage.",
       "type": "datasource",
       "pluginId": "prometheus",
       "pluginName": "Prometheus"
@@ -88,7 +88,7 @@
       }
     ]
   },
-  "description": "This dashboard provides a comprehensive view of the health and performance of a Story blockchain node. It monitors sync status, consensus metrics, block processing times, transaction activity, validator participation, and system resource usage. The dashboard helps identify network issues, node performance bottlenecks, and memory management efficiencies, providing critical insights to maintain an optimized and healthy node.",
+  "description": "This dashboard offers a detailed overview of a Story blockchain node's health, performance, and system metrics to optimize and maintain node efficiency.",
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
@@ -3983,8 +3983,8 @@
       {
         "current": {
           "selected": false,
-          "text": "story-despread",
-          "value": "story-despread"
+          "text": "story",
+          "value": "story"
         },
         "datasource": {
           "type": "prometheus",
@@ -4016,8 +4016,9 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Story Dashboard by DeSpread",
+  "title": "Story Validator Dashboard by DeSpread",
   "uid": "ae0wuafuoeebkca",
   "version": 2,
-  "weekStart": ""
+  "weekStart": "",
+  "gnetId": 22081
 }
